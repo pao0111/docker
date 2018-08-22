@@ -1,4 +1,6 @@
 FROM alpine:edge
+LABEL maintainer="pao0111@gmail.com"
+
 RUN apk --no-cache add \
     bash git yarn
 
